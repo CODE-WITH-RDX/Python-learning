@@ -1,0 +1,13 @@
+def bill_calc(product_name,quantity,price_per_item):
+    total=quantity*price_per_item
+    return total
+    
+bill1=bill_calc("perfume",1,2000)
+bill2=bill_calc("mouse",1,2500)
+bill3=bill_calc("keyboard",1,2000)
+bill4=bill_calc("speaker",2,500)
+grand_total=bill1 + bill2 + bill3+bill4
+if grand_total>5000:
+    final=grand_total-(grand_total*0.10)
+
+print("final bill after 10% disciunt",final)
