@@ -1,0 +1,36 @@
+def grading_sys(name,marks):
+    if marks>=90: 
+        print("congrtulations you got grade A+")
+    elif marks>=80:
+        print("grade B")
+    elif marks>=70:
+        print("grade C")
+    elif marks>=60:
+        print("grade D")
+ 
+    
+    
+    else:
+        print("FAIL")
+        return
+    print(name,"pass with",marks)
+
+       
+grading_sys("shamoon",92)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
